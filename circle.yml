@@ -39,6 +39,6 @@ test:
     - mvn clean test
 
 ## Customize deployment commands
-#deployment:
-#  staging:
-#    branch: circleci
+deployment:
+  staging:
+    branch: master
