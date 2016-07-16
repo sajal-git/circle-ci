@@ -37,10 +37,10 @@ machine:
 test:
   override:
     - mvn clean test
-
+    - mvn clean package
 ## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: circleci-01
+#deployment:
+#  staging:
+#    branch: master
+#    heroku:
+#      appname: circleci-01
