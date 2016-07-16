@@ -42,3 +42,5 @@ test:
 deployment:
   staging:
     branch: master
+    heroku:
+      appname: circleci-01
