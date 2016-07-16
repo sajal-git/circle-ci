@@ -38,6 +38,10 @@ test:
   override:
     - mvn clean test
     - mvn clean package
+
+general:
+  artifacts:
+    - "target/"
 ## Customize deployment commands
 #deployment:
 #  staging:
